@@ -1,0 +1,16 @@
+h1, a {
+    color: steelblue;
+}
+
+#emphasis {
+    color: red;
+}
+
+#active {
+    background-color: steelblue;
+    color: white;
+}
+
+.room {
+    background-color: lightgray;
+}
