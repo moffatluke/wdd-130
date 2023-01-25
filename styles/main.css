@@ -3,7 +3,7 @@ h1, a {
 }
 
 #emphasis {
-    color: red;
+    color: black;
 }
 
 #active {
@@ -14,3 +14,28 @@ h1, a {
 .room {
     background-color: lightgray;
 }
+
+img {
+    width: 50%;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+#imgstuff{
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+nav a:hover {
+    color: black
+}
+
