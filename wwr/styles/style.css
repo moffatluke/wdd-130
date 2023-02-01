@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&family=Special+Elite&display=swap');
 
-
-
 div {
     max-width: 1600px;
 }
@@ -14,12 +12,15 @@ div {
 #hero-img {
     width: 100%;
 }
+
 #content {
     margin: 0 auto;
 }
+
 .logo {
     width: 80px;
 }
+
 #logo-link {
     padding-top: 5px;
 
@@ -31,7 +32,6 @@ nav a {
     text-align: center;
     background-color: #ddf508;
     color: #396e94
-
 }
 
 nav a:hover {
@@ -69,6 +69,7 @@ main section {
 }
 
 #background {
+    background-color: #396e94;
     height: 725px;
 }
 
@@ -104,14 +105,9 @@ header {
     color: white;
 }
 
-#background {
-    background-color: #396e94;
-    
-}
-
 .msg {
     background-color: #396e94;
-    padding: 15px;
+    padding: 35px;
     line-height: 1.5em;
     color: white;
 }
@@ -126,6 +122,7 @@ header {
     background-color: #396e94;
     color: white;
     font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
 footer {
@@ -133,13 +130,14 @@ footer {
     padding: 25px 50px;
     color: white;
     text-decoration: none;
+    margin-top: 200px;
 }
 
 footer a {
     text-decoration: none;
     color: white;
     font-size: 1.2em;
-    margin-top: 200px;
+    
 }
 footer a:hover {
     color: white;
@@ -154,7 +152,7 @@ footer .social img {
 }
 
 .rivers-card, .camping-card, .rapids-card {
-    margin-top: 200px 0;
+    margin: 200px 0;
 }
 
 .card-img{
