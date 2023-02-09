@@ -1,0 +1,26 @@
+
+body {
+    margin: 0, auto;
+    padding: none;
+    background-color: gray;
+    : none;
+}
+
+#logic {
+    padding: none;
+    margin: 0, auto;
+    border-radius: 0%;
+    margin: 0, auto;
+}
+
+.lower {
+    border: 10px solid black;
+    
+}
+
+img {
+    size: 33%;
+    display: inline;
+    border-radius: 50%;
+    text-align: center;
+}
