@@ -60,7 +60,7 @@ nav a {
     text-align: center;
     background-color: #396e94;
     color: white;
-    border-radius: px;
+    border-radius: 5px;
 }
 
 nav a:hover {
@@ -215,7 +215,7 @@ footer .social img {
 
 .card-img{
     border: 10px solid black;
-    transition: transfrom .5s;
+    transition: .5s;
     box-shadow: 5px 5px 10px black;
 }
 
