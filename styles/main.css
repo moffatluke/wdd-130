@@ -43,22 +43,22 @@ div {
 }
 nav {
     text-align: center;
-    padding: 25px;
+    padding: 2%;
 
 }
 nav a {
     text-decoration: none;
-    padding: 10px;
+    padding: 1%;
     text-decoration: none;
     background-color: rgba(70, 130, 189, .2);
-    margin: 5;
+    margin: .2%;
     color: black;
     border: 2px solid steelblue;
     border-radius: 15px;
 }
 nav a:hover {
     color: black;
-    background-color: rgba(70, 130, 189, .2);
+    background-color: rgba(231, 43, 10, 0.2);
 }
 
 #container {
