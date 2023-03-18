@@ -5,11 +5,11 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #F8F2DC;
-  --secondary-color: #0A3200;
-  --accent1-color: #61A0AF;
-  --accent2-color: #698F3F;
-  --accent3-color: #C4E7D4;
+  --primary-color: #9157A2;
+  --secondary-color: #C35767;
+  --accent1-color: #6B9AFF;
+  --accent2-color: #000000;
+  --accent3-color: white;
 
   /* change the values below to your chosen font(s) */
   --heading-font:  "Russo One", "Space Grotesk";
@@ -20,7 +20,7 @@ Fonts are separated by a | */
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #0A3200; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #F8F2DC; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #61A0AF;
+  --paragraph-background-color: #9157A2;
   --nav-link-color: white;
   --nav-background-color: #0A3200;
   --nav-hover-link-color: white;
