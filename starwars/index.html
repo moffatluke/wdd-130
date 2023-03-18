@@ -5,21 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Galaxy Vacations | Home </title>
-    <link rel="stylesheet" href="styles/style.css">
+    <script defer src="script/script.js"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+    
 </head>
-<body>
+<body> 
+    <header class="header">
+        <a class="logo" href="index.html">
+            <img class="logo" src="images/galaxy-logo.svg" width="200px" alt="Galaxy Vacations Logo">
+        </a>
+        <ul class="links">
+            <li class="link-item">
+                <a class='nava' href="index.html">Home</a>
+            </li>
+            <li>
+                <a class='nava' href="amenities.html">Amenities</a>
+            </li>
+            <li>
+                <a  class='nava' href="excursion.html">Excursions</a>
+            </li>
+        </ul>
+    </header>
     <div id="content">
-        <header>
-            <a id="logo_link" href="index.html">
-                <img class="logo" src="images/galaxy-logo.svg" width="200px" alt="Galaxy Vacations Logo">
-            </a>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="amenities.html">Amenities</a>
-                <a href="excursion.html">Excursions</a>
-                <a href="site-plan.html">Site Plan</a>
-            </nav>
-        </header>
+        <div id="hero">
+            <section id="hero-msg">
+                <h1 class="home-title">Galaxy Vacations</h1>
+                <h4>Your Destination Among the Stars!</h4>
+                <div class='button-box'>
+                    
+                </div>
+            </section>
+            <img class="msg-background" src="images/msg-background.webp" alt="">
+        </div>
+        
         <main class="home-grid">
             <section class="endor-card">
                 <img class="card-img" src="images/endor-trees.webp" width="200px" alt="forest of endor">
@@ -32,14 +50,11 @@
             </section>
             <section class="bespin-card">
                 <img class="card-img" src="images/bespin-night.jpg" width="200px"alt="cloud city">
-                
                 <h2>Cloud City</h2>
-            </section>
-            <div id="background"></div>
-            
+            </section> 
             <section class="msg">
-                <h2>A Vacation Like No Other!</h2>
-                <p>The galaxies most luxurious hotels! Looking for some time away? Take comfort in our all-inclusive resorts. Our superior droid staff is ready to help 24/7. Make memories together as you explore Endor National park or Cloud City. For a limited time book now to see “The Eye of Aldhani”. Take part once in a lifetime events and see the Eye while enjoying the Aldhani festivities.</p>
+                <h2 id="no-other-msg">A Vacation Like No Other!</h2>
+                <p id="hotel-msg">The galaxies most luxurious hotels! Take comfort in our all-inclusive resorts. Our superior droid staff is ready to help 24/7. Make memories together as you explore Endor National park or Cloud City. For a limited time, book now to see “The Eye of Aldhani”. Take part once in a lifetime events and see The Eye while enjoying the Aldhani festivities.</p>
                 <a class='join' href="#">Book Now!</a>
             </section>
         </main>

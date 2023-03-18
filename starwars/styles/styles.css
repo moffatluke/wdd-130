@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Roboto+Condensed:wght@300&family=Russo+One&family=Space+Grotesk&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body {
+    background: rgb(195,34,34);
+    background: linear-gradient(0deg, rgba(195,34,34,0.7624299719887955) 0%, rgba(45,67,253,0.8884803921568627) 100%);
+    position: relative;
+    
+}
+
+#content{
+    display: grid;
+    overflow: auto;
+}
+
+
+.header {
+    padding: 1% 0%;
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 1.7em;
+    color: white;
+    position: fixed;
+    width: 100%;
+    transition: .5s;
+    z-index: 1;
+}
+
+.header-scrolled {
+    background-color:#9157A2;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 15);
+}
+
+ul {
+    width: 50%;
+    justify-items: auto;
+    list-style: none;
+}
+
+.nava {
+    color: white;
+    border-radius: 13px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px black;
+    text-decoration: none;
+    background-color:  #6b9aff;
+    transition: .07s;
+    
+}
+
+.nava:hover {
+    transform: scale(1.08);
+    box-shadow: 10px 10px 15px black;
+}
+.links {
+    display: flex;
+    column-gap: 20%;
+}
+
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+/*hero*/
+
+
+#hero{
+    display: grid;
+    grid-template-columns: 45% 60%;
+}
+
+#hero-msg {
+    margin: 50% 0% 0% 6%;
+    padding: 15px;
+    color: white;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+
+h4 {
+    margin:5% 0%;
+    font-size: 1.87em;
+    
+}
+.home-title {
+    font-family: "space grotesk";
+}
+h1 {
+    font-size: 8em;
+}
+
+.button-box {
+    margin: 0 auto;
+    margin-top: 5%;
+    
+}
+.book {
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 2em;
+    margin-left: -2%;
+}
+
+
+
+.msg-background {
+    height: 100%;
+    width: 100%;
+    grid-row: 1/2;
+    grid-column: 1/3;
+    z-index: -1;
+    overflow-x: hidden; 
+}
+
+
+/*Locations*/
+
+.endor-card, .aldhani-card, .bespin-card {
+    margin: 200px 0;
+}
+.endor-card {
+    margin: auto;
+    margin-top: 20%;
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.aldhani-card {
+    margin: auto;
+    margin-top: 20%;
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.bespin-card {
+    margin: auto;
+    margin-top: 20%;
+    text-align: center;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.card-img{
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    height: 350px;
+    border-radius: 15%;
+    transition: .5s;
+    box-shadow: 5px 5px 10px black;
+    
+}
+.card-img:hover {
+    transform: scale(1.3);
+    box-shadow: 10px 10px 15px black;
+}
+
+h2 {
+
+    text-align: center;
+    margin: 7%;
+    margin-top: 15%;
+    font-family: "Play";
+}
+
+/*Message*/
+
+.msg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 4/4;
+    grid-column: 1/4;
+    font: 2em;
+    margin: 5% 6%;
+    padding: 2.5%;
+    padding-bottom: 6%;
+    font-family: "roboto condensed" sans-serif;
+    background-color: #9157A2;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 30px;
+    font-size: 1.5em;
+    text-align: center;
+}
+#no-other-msg{
+    grid-column: 1/4;
+    grid-row: 1/1;
+}
+
+#hotel-msg {
+    grid-row: 2/2;
+    grid-column: 1/4;
+}
+.join {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    margin-top: 15%;
+    grid-column: 2/3;
+    grid-row: 3/3;
+    border-radius: 13px;
+    box-shadow: 5px 5px 10px black;
+    transition: .04s;
+    background-color:  #6b9aff;
+    color: black;
+}
+.join:hover {
+    transform: scale(1.08);
+    box-shadow: 10px 10px 15px black;
+}
+#no-other-msg {
+    margin-top: 0.003%;
+    text-align: center;
+    padding: 0%;
+    font-family:"Russo One" sans-serif;
+    font-size: 3em;
+}
+
+/*Footer*/
+footer {
+    background-color: black;
+    padding: 25px 50px;
+    color: white;
+    text-decoration: none;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    
+}
+footer a:hover {
+    color: white;
+    box-shadow: none;
+}
+
+footer p a:hover{
+    
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+
+/*scroll*/
+::-webkit-scrollbar {
+    width: 12px;
+    display: none;
+}
