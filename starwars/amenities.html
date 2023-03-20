@@ -5,30 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Galaxy Vacations | Amenities </title>
-    <link rel="stylesheet" href="styles/style.css">
+    <script defer src="script/script.js"></script>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
-<body>
+<body class="amenities-page">
+    <header class="header">
+        <a class="logo" href="index.html">
+            <img class="logo" src="images/galaxy-logo.svg"  alt="Galaxy Vacations Logo">
+        </a>
+        <ul class="links">
+            <li class="link-item">
+                <a class='nava' href="index.html">Home</a>
+            </li>
+            <li>
+                <a class='nava' href="amenities.html">Amenities</a>
+            </li>
+            <li>
+                <a  class='nava' href="excursion.html">Excursions</a>
+            </li>
+        </ul>
+    </header>
     <div id="content">
-        <header>
-            <a id="logo_link" href="index.html">
-                <img class="logo" src="images/galaxy-logo.svg" width="200px" alt="Galaxy Vacations Logo">
-            </a>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="amenities.html">Amenities</a>
-                <a href="excursion.html">Excursions</a>
-                <a href="site-plan.html">Site Plan</a>
-        </header>
-        </div>
         <main class="amenities-grid">
+            <div id="dummy-space"></div>
             <img class="suites-img" src="images/bespin-suites.webp" alt="Cloud City Suites">
-            <h2 class="suites-img">Cloud City Suites</h2>
             <p id="suites-message">
                 Our 24-hour staff of personal droids is ready to assist at a moment's notice. Free parking for any cruiser! Free spa and massage with our Fun and Family package.
             </p>
-            <img class = "food-img" src="images/starwars-food.jpg" alt="Delicacies from around the Galaxy">
-            <h2 class = "food-img">Tour Among The Clouds</h2>
-            <p id = "food-message">
+            <img class ="food-img" src="images/starwars-food.jpg" alt="Delicacies from around the Galaxy">
+            <p id ="food-message">
                 Delicacies from around the galaxy included! All-inclusive food and fun for the whole family! With our Fun and Family package enjoy all meals free! 
             </p>
         </main>

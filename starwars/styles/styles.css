@@ -265,7 +265,184 @@ footer .social img {
 }
 
 
+
+
+/*Amenities*/
+
+.amenities-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+    grid-template-rows: 1fr 1.5fr 1.5fr;
+    row-gap: 5%;
+}
+
+#dummy-space {
+    grid-row: 1/2;
+    height: 10%;
+}
+.suites-img {
+    grid-column: 1/2;
+    grid-row: 2/2;
+    margin: auto;
+    text-align: center;
+    height: 500px;
+    width: 800px;
+    border-radius: 35px;
+    transition: .5s;
+    box-shadow: 5px 5px 10px black;
+
+}
+
+#suites-message {
+    grid-column: 2/3;
+    grid-row: 2/2;
+    margin: auto;
+    padding: 3%;
+    background-color: #9157A2;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 30px;
+    font-size: 2em;
+    text-align: left;
+    width: 800px;
+}
+
+#food-message {
+    grid-column: 1/2;
+    grid-row: 3/3;
+    margin: auto;
+    padding: 3%;
+    background-color: #9157A2;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 30px;
+    font-size: 2em;
+    text-align: left;
+    width: 800px;
+}
+
+.food-img {
+    grid-column: 2/3;
+    grid-row: 3/3;
+    margin: auto;
+    text-align: center;
+    height: 500px;
+    width: 800px;
+    border-radius: 35px;
+    transition: .5s;
+    box-shadow: 5px 5px 10px black;
+}
+
+/*Excursions*/
+
+.excursion-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+    grid-template-rows: 1fr 1.5fr 1.5fr 1.5fr;
+    row-gap: 5%;
+    overflow: hidden;
+}
+
+#dummy-space2 {
+    grid-row: 1/2;
+    height: 10%;
+}
+.endor-img {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: auto;
+    text-align: center;
+    height: 500px;
+    width: 800px;
+    border-radius: 35px;
+    transition: .5s;
+    box-shadow: 5px 5px 10px black;
+
+}
+
+#endor-message {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: auto;
+    padding: 3%;
+    background-color: #9157A2;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 30px;
+    font-size: 2em;
+    text-align: left;
+    width: 800px;
+}
+
+.endor-label {
+    grid-column: 1/2;
+    grid-row: 2/2;
+    margin-top: 70%;
+    color: white;
+}
+
+#bespin-message {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin: auto;
+    padding: 3%;
+    background-color: #9157A2;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 30px;
+    font-size: 2em;
+    text-align: left;
+    width: 800px;
+}
+
+.bespin-img {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin: auto;
+    text-align: center;
+    height: 500px;
+    width: 800px;
+    border-radius: 35px;
+    transition: .5s;
+    box-shadow: 5px 5px 10px black;
+}
+.bespin-label {
+    grid-column: 2/3;
+    grid-row: 3/4; 
+    margin-top: 67%;
+    color: white;
+}
+
+.the-eye-img {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    margin: auto;
+    text-align: center;
+    height: 500px;
+    width: 800px;
+    border-radius: 35px;
+    transition: .5s;
+    box-shadow: 5px 5px 10px black;
+    margin-bottom: 2%;
+}
+
+.the-eye-label {
+    margin-top: 0%;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    color: white;
+}
+#the-eye-message {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    margin: auto;
+    padding: 3%;
+    background-color: #9157A2;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 30px;
+    font-size: 2em;
+    text-align: left;
+    width: 800px;
+}
+
 /*scroll*/
+
 ::-webkit-scrollbar {
     width: 12px;
     display: none;
