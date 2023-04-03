@@ -72,6 +72,7 @@ ul {
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 5%;
 }
 
 
@@ -135,35 +136,35 @@ h1 {
 }
 .endor-card {
     margin: auto;
-    margin-top: 20%;
     text-align: center;
     grid-column: 1/2;
     grid-row: 3/4;
+    width: 90%;
 }
 .aldhani-card {
     margin: auto;
-    margin-top: 20%;
     text-align: center;
     grid-column: 2/3;
     grid-row: 3/4;
+    width: 90%;
 }
 .bespin-card {
     margin: auto;
-    margin-top: 20%;
     text-align: center;
     grid-column: 3/4;
     grid-row: 3/4;
+    width: 90%;
 }
 
 .card-img{
-    width: 350px;
+    width: 90%;
     text-align: center;
     margin: auto;
     height: 350px;
     border-radius: 15%;
     transition: .5s;
-    box-shadow: 5px 5px 10px black;
-    
+    box-shadow: 5px 5px 10px black;  
+   
 }
 .card-img:hover {
     transform: scale(1.2);
@@ -271,18 +272,19 @@ footer .social img {
 
 .amenities-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1.5fr 1.5fr;
     row-gap: 5%;
 }
 
 #dummy-space {
     grid-row: 1/2;
-    height: 10%;
+    height: 8%;
 }
 .suites-img {
-    grid-column: 1/2;
-    grid-row: 2/2;
+    box-sizing: border-box;
+    grid-column: 1/3;
+    grid-row: 2/3;
     margin: auto;
     text-align: center;
     height: 500px;
@@ -290,12 +292,15 @@ footer .social img {
     border-radius: 35px;
     transition: .5s;
     box-shadow: 5px 5px 10px black;
-
+    margin-bottom: 2%;
 }
+
+
 
 #suites-message {
-    grid-column: 2/3;
-    grid-row: 2/2;
+    box-sizing: border-box;
+    grid-column: 2/4;
+    grid-row: 2/3;
     margin: auto;
     padding: 3%;
     background-color: #9157A2;
@@ -303,12 +308,15 @@ footer .social img {
     border-radius: 30px;
     font-size: 2em;
     text-align: left;
-    width: 800px;
+    width: 70%
 }
 
+
+
 #food-message {
-    grid-column: 1/2;
-    grid-row: 3/3;
+    box-sizing: border-box;
+    grid-column: 1/3;
+    grid-row: 3/4;
     margin: auto;
     padding: 3%;
     background-color: #9157A2;
@@ -316,12 +324,13 @@ footer .social img {
     border-radius: 30px;
     font-size: 2em;
     text-align: left;
-    width: 800px;
+    width: 70%
 }
 
 .food-img {
-    grid-column: 2/3;
-    grid-row: 3/3;
+    box-sizing: border-box;
+    grid-column: 2/4;
+    grid-row: 3/4;
     margin: auto;
     text-align: center;
     height: 500px;
@@ -329,100 +338,84 @@ footer .social img {
     border-radius: 35px;
     transition: .5s;
     box-shadow: 5px 5px 10px black;
+    
 }
 
 /*Excursions*/
 
 .excursion-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
-    grid-template-rows: 1fr 1.5fr 1.5fr 1.5fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     row-gap: 5%;
-    column-gap: 0%;
-    overflow: hidden;
+    overflow:hidden;
 }
 
 #dummy-space2 {
-    grid-row: 1/2;
-    height: 10%;
+    grid-row: 1/4;
+    height: %;
 }
 .endor-img {
     box-sizing: border-box;
-    grid-column: 1/2;
+    grid-column: 1/3;
     grid-row: 2/3;
     margin: auto;
-    margin-left: 5%;
     text-align: center;
-    height: 100%;
-    width: 90%;
+    height: 500px;
+    width: 800px;
     border-radius: 35px;
     transition: .5s;
     box-shadow: 5px 5px 10px black;
+    margin-bottom: 2%;
 
 }
 
 #endor-message {
     box-sizing: border-box;
-    grid-column: 2/3;
+    grid-column: 2/4;
     grid-row: 2/3;
     margin: auto;
-    margin-right: 5%;
     padding: 3%;
     background-color: #9157A2;
     box-shadow: 5px 5px 10px black;
     border-radius: 30px;
     font-size: 2em;
     text-align: left;
-    z-index: 1;
+    width: 70%
 }
 
-.endor-label {
-    box-sizing: border-box;
-    grid-column: 1/2;
-    grid-row: 2/2;
-    margin-top: 70%;
-    color: white;
-}
+
 
 #bespin-message {
     box-sizing: border-box;
-    grid-column: 1/2;
+    grid-column: 1/3;
     grid-row: 3/4;
     margin: auto;
-    margin-right: 5%;
     padding: 3%;
     background-color: #9157A2;
     box-shadow: 5px 5px 10px black;
     border-radius: 30px;
     font-size: 2em;
     text-align: left;
-    width: 800px;
+    width: 70%
 }
 
 .bespin-img {
     box-sizing: border-box;
-    grid-column: 2/3;
+    grid-column: 2/4;
     grid-row: 3/4;
     margin: auto;
-    margin-right: 5%;
     text-align: center;
-    height: 100%;
-    width: 90%;
+    height: 500px;
+    width: 800px;
     border-radius: 35px;
     transition: .5s;
     box-shadow: 5px 5px 10px black;
+    margin-bottom: 2%;
 }
-.bespin-label {
-    box-sizing: border-box;
-    grid-column: 2/3;
-    grid-row: 3/4; 
-    margin-top: 67%;
-    color: white;
-}
-
 .the-eye-img {
     box-sizing: border-box;
-    grid-column: 1/2;
+    grid-column: 1/3;
     grid-row: 4/5;
     margin: auto;
     text-align: center;
@@ -434,16 +427,10 @@ footer .social img {
     margin-bottom: 2%;
 }
 
-.the-eye-label {
-    box-sizing: border-box;
-    margin-top: 0%;
-    grid-column: 1/2;
-    grid-row: 4/5;
-    color: white;
-}
+
 #the-eye-message {
     box-sizing: border-box;
-    grid-column: 2/3;
+    grid-column: 2/4;
     grid-row: 4/5;
     margin: auto;
     padding: 3%;
@@ -452,7 +439,7 @@ footer .social img {
     border-radius: 30px;
     font-size: 2em;
     text-align: left;
-    width: 800px;
+    width: 70%
 }
 
 /*scroll*/
